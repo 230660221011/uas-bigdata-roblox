@@ -160,7 +160,7 @@ st.markdown("---")
 
 # ===================== SIDEBAR =====================
 st.sidebar.markdown("## 🎮 Roblox Analytics")
-st.sidebar.image(logo, width=150)
+st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/3/3a/Roblox_player_icon_black.svg", width=150)
 
 st.session_state.menu = st.sidebar.radio(
     "🧭 Navigasi",
@@ -335,3 +335,4 @@ elif st.session_state.menu == "Visualisasi & Insight":
                 "menunjukkan pengguna memberikan penjelasan lebih detail saat menyampaikan keluhan."
 
             )
+
