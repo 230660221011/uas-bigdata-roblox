@@ -1,0 +1,50 @@
+review_id,rating,review_text,sentiment,text_length,clean_text
+1,5,Game ini sangat seru dan kreatif,Positive,32,game seru kreatif
+2,4,Lumayan bagus tapi kadang lag,Positive,29,lumayan bagus kadang lag
+3,1,Game sering force close setelah update,Negative,38,game force close update
+4,5,Roblox game favorit saya,Positive,24,roblox game favorit
+5,2,Banyak bug dan server lambat,Negative,28,bug server lambat
+6,4,Grafis bagus dan gameplay menarik,Positive,33,grafis bagus gameplay menarik
+7,1,Sering keluar sendiri dari game,Negative,31,game
+8,5,Sangat seru bisa main dengan teman,Positive,34,seru main teman
+9,3,Biasa saja tidak terlalu spesial,Neutral,32,spesial
+10,5,Game online terbaik menurut saya,Positive,32,game online terbaik
+11,2,Update terbaru bikin lag,Negative,24,update terbaru bikin lag
+12,4,Cukup bagus untuk hiburan,Positive,25,bagus hiburan
+13,5,Sangat menyenangkan dan bebas berkreasi,Positive,39,menyenangkan bebas berkreasi
+14,1,Game error terus,Negative,16,game error
+15,2,Server sering penuh,Negative,19,server penuh
+16,5,Game favorit sejak lama,Positive,23,game favorit
+17,4,Konten sangat banyak,Positive,20,konten
+18,3,Kadang seru kadang membosankan,Neutral,30,kadang seru kadang membosankan
+19,1,Tidak bisa login,Negative,16,login
+20,5,Anak saya suka game ini,Positive,23,anak suka game
+21,4,Gameplay cukup menarik,Positive,22,gameplay menarik
+22,2,Banyak bug setelah update,Negative,25,bug update
+23,5,Sangat kreatif dan inovatif,Positive,27,kreatif inovatif
+24,1,Tidak bisa dimainkan,Negative,20,dimainkan
+25,3,Standar saja,Neutral,12,standar
+26,5,Seru untuk semua umur,Positive,21,seru umur
+27,4,Fitur cukup lengkap,Positive,19,fitur lengkap
+28,2,Lag parah di HP saya,Negative,20,lag parah hp
+29,1,Sering crash,Negative,12,crash
+30,5,Game terbaik sepanjang masa,Positive,27,game terbaik
+31,4,Cukup stabil dimainkan,Positive,22,stabil dimainkan
+32,5,Sangat direkomendasikan,Positive,23,direkomendasikan
+33,2,Server lambat,Negative,13,server lambat
+34,1,Tidak bisa masuk game,Negative,21,masuk game
+35,5,Sangat seru dan adiktif,Positive,23,seru adiktif
+36,4,Grafik cukup bagus,Positive,18,grafik bagus
+37,3,Biasa saja,Neutral,10,
+38,2,Banyak error,Negative,12,error
+39,1,Game tidak berjalan,Negative,19,game berjalan
+40,5,Game favorit keluarga,Positive,21,game favorit keluarga
+41,4,Gameplay cukup lancar,Positive,21,gameplay lancar
+42,5,Sangat menghibur,Positive,16,menghibur
+43,2,Terlalu banyak bug,Negative,18,bug
+44,1,Sering keluar sendiri,Negative,21,
+45,5,Game terbaik,Positive,12,game terbaik
+46,4,Cukup seru,Positive,10,seru
+47,3,Lumayan,Neutral,7,lumayan
+48,2,Lag terus,Negative,9,lag
+50,5,Game favorit saya,Positive,17,game favorit
