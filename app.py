@@ -132,8 +132,16 @@ div[data-baseweb="select"] > div {
 
 # ===================== LOAD DATA =====================
 df = pd.read_csv("roblox_reviews.csv")
-logo = Image.open("roblox_logo.jpg")
-wordcloud_img = Image.open("wordcloud.png")
+
+# Perbaikan bagian logo: Langsung gunakan URL di st.image, tidak perlu Image.open
+st.image("https://upload.wikimedia.org/wikipedia/commons/3/3a/Roblox_player_icon_black.svg", width=100)
+
+# Bagian Wordcloud (Gunakan try-except agar jika file png tidak ada, app tidak mati)
+try:
+    wordcloud_img = Image.open("wordcloud.png")
+    st.image(wordcloud_img)
+except:
+    st.warning("Gambar Wordcloud belum tersedia.")
 
 # ===================== HEADER =====================
 st.markdown("""
@@ -325,4 +333,5 @@ elif st.session_state.menu == "Visualisasi & Insight":
             st.write(
                 "Ulasan negatif dan netral cenderung memiliki teks lebih panjang, "
                 "menunjukkan pengguna memberikan penjelasan lebih detail saat menyampaikan keluhan."
+
             )
